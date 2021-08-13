@@ -1,0 +1,36 @@
+.underline:after 
+{
+    font-family: 'Poppins', sans-serif;
+    content: '';
+    display: block;
+    width: 10%;
+    height: 4px;
+    background-color: #38aa46;
+}
+
+body
+{
+    margin-left:0%; 
+    background-color: #ded5a1;
+    font-family: 'Poppins', sans-serif;
+}
+
+#pg
+{
+    font-family: 'Nunito', sans-serif;
+}
+
+#family
+{
+    background-color: #c6c64e;
+}
+
+#footer
+{
+    font-family: 'Poppins', sans-serif;
+}
+
+#nav
+{
+    background-color: #38aa46;
+}
