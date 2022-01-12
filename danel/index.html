@@ -6,6 +6,20 @@
 <meta name="theme-color" content="#ff4444">
 </head>
 <body>
-<h1 id="output">I Love You🦁❤!</h1>
+<h1 id="output"></h1>
 </body>
+<script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+<script>
+  var app = document.getElementById('output');
+
+  var typewriter = new Typewriter(app, {
+    loop: false,
+    delay: 75,
+  });
+
+  typewriter
+    .pauseFor(2500)
+    .typeString('I Love You🦁❤!')
+    .start();
+</script>
 </html>
