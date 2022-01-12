@@ -13,13 +13,14 @@
   var app = document.getElementById('output');
 
   var typewriter = new Typewriter(app, {
-    loop: false,
+    loop:  true,
     delay: 75,
   });
 
   typewriter
     .pauseFor(2500)
     .typeString('I Love You🦁❤!')
+    .pauseFor(2500)
     .start();
 </script>
 </html>
