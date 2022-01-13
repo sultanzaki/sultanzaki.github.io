@@ -1,3 +1,7 @@
+<?php
+$vist_page     =   "index.php";
+include "logger.php";
+?>
 <!DOCTYPE html>
 <html>
 <head>
